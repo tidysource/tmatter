@@ -1,0 +1,34 @@
+{
+  "name": "tmatter",
+  "version": "1.0.0",
+  "description": "front matter + markdown parser for \"t\"",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tidysource/tmatter.git"
+  },
+  "keywords": [
+    "frontmatter",
+    "markdown",
+    "t"
+  ],
+  "author": "TidySource (Daniel Cobo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tidysource/tmatter/issues"
+  },
+  "homepage": "https://github.com/tidysource/tmatter#readme",
+  "devDependencies": {
+    "tidytest": "^1.0.1"
+  },
+  "dependencies": {
+    "front-matter": "^2.1.2",
+    "markdown-it": "^8.3.1"
+  }
+}
